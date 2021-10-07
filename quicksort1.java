@@ -64,5 +64,9 @@ public class Main
             arr[i] = s.nextInt();
         }
         int leng = arr.length;
+        QuickSort qs = new QuickSort();
+        qs.quickSortRec(arr, 0, leng-1);
+        qs.printArray(arr);
         
-       
+    }
+}       
